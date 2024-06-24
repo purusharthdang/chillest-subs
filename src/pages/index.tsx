@@ -23,8 +23,9 @@ export default function Home() {
   
   return (
     <main
-      className={`flex min-h-screen flex-col items-center p-24 gap-2 ${inter.className}`}
+      className={`flex min-h-screen flex-col items-center sm:p-24 justify-center p-6 gap-2 ${inter.className}`}
     >
+      <h1 className="text-2xl">Chillest Subs</h1>
       <h1>Magazines with deadlines next week (from next Monday to next Sunday)</h1>
       <button className="cursor-pointer p-2 shadow bg-slate-700 rounded-md" onClick={handleListDownload}>Download List</button>
       {/* Below is hidden, and only visible in MagazineList.html file */}
